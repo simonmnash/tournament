@@ -9,6 +9,13 @@ import scrapy
 
 
 class TournamentItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    pass
+
+class DeckListItem(TournamentItem):
+    mtgtop8_deck_id = scrapy.Field()
+    mtgtop8_event_id = scrapy.Field()
+    pilot = scrapy.Field()
+    placing = scrapy.Field()
+    deck_name = scrapy.Field()
+    decklist_url = scrapy.Field()
     pass
