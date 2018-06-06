@@ -18,4 +18,3 @@ class DeckListItem(TournamentItem):
     placing = scrapy.Field()
     deck_name = scrapy.Field()
     decklist_url = scrapy.Field()
-    pass

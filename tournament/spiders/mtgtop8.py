@@ -33,4 +33,3 @@ class Mtgtop8Spider(scrapy.Spider):
         item["pilot"] = pilot
         item["decklist_url"] = decklist_link
         yield item
-        pass
